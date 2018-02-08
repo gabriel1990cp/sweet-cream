@@ -1,0 +1,308 @@
+a{
+	color:#b4d15a;
+}
+
+a:hover{
+	color:#92b037;
+}
+
+.social_header {
+	background: #92b037;
+	color: #fff;
+}
+
+.post-password-form  input[type="submit"] {
+	background:#b4d15a;
+}
+
+.post-password-form  input[type="submit"]:hover{
+	background:#92b037;
+}
+
+.dropdown-menu{
+	border-left:3px solid #92b037;
+	background:#b4d15a;	
+}
+
+#gototop{
+	background:#92b037;	
+}
+
+#gototop:hover{
+	background:#b4d15a;	
+}
+
+/* style switcher */
+.sw2{
+	background:#92b037;
+	border:1px solid #92b037;
+}
+
+.sw1{
+	border:1px solid #92b037;
+}	
+/* end style switcher */
+
+
+.serviceblock .span4:hover .servicetitle h4{
+	color:#92b037;
+}
+
+.sidebar .block li{
+	border-bottom:1px solid #b4d15a;
+}	
+
+.navbar .btn-navbar {
+	background: #b4d15a;
+}
+
+.navbar .btn-navbar:hover{
+	background:#92b037;
+}
+
+.buttonlink{
+	background:#b4d15a;
+}
+
+.buttonlink:hover{
+	background:#92b037;	
+}
+
+.maintitle1{
+	color:#b4d15a;
+}
+
+.divider{
+	border-bottom: 2px solid #b4d15a;
+}
+
+.dividerd{
+	border-bottom: 4px solid #b4d15a;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color:#92b037;
+}	
+
+.titleinner h1{
+	color:#b4d15a;
+}
+
+.servicetitle h4{
+	color:#b4d15a;
+}
+
+.pagetitle{
+	background:#b4d15a;
+}	
+
+.titleblock{
+	border-bottom:1px solid #b4d15a;
+}
+
+.titlestart{
+	color:#b4d15a;
+}
+
+.serviceicon{
+	border: 6px solid #b4d15a;
+	background:#b4d15a;
+}	
+
+.serviceblock .span4:hover .serviceicon{
+	border-color:#92b037;
+}	
+
+.pricingimg{
+	background:#b4d15a;
+}
+
+.pricingtitle{
+	color:#92b037;
+}
+
+.pricingtitleunderline{
+	background:#92b037;
+}
+
+.buynow{
+	background:#92b037;
+}	
+
+.pricinginner:hover{
+	background:#92b037;
+}
+
+.pricinginner:hover .pricingtitleunderline{
+	background:#b4d15a;
+}	
+
+.pricinginner:hover .pricetriangle{
+	color:#92b037;
+}
+
+.pricinginner:hover .buynow{
+	color:#92b037;
+}
+
+.pricetriangle{
+	border-color: transparent #92b037 transparent transparent;
+}	
+
+.googlemap:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(190,207,136, 0.8);
+}
+
+.prjt-item-hover{
+	background:#b4d15a;
+}	
+
+.teamtitle {
+	color: #92b037;
+}	
+
+.team_social a{
+	color:#92b037;
+}
+
+.team_social a:hover{
+	color:#d3d3d3;
+}
+
+.footer {
+	background: #92b037;
+}
+
+.quoteauthor{
+	font-weight:600;
+	color:#b4d15a;
+}
+
+.permalink a{
+	color:#92b037;
+}
+
+.permalink a:hover{
+	color:#b4d15a;
+}	
+
+.bloglink{
+	background:#b4d15a; 		
+}
+
+.bloglink:hover{
+	background:#92b037;
+}
+
+.chat_post p strong{color:#92b037;}
+
+.chat_post p:nth-child(odd) strong {color:#b4d15a;}
+
+.blocktitle{
+	color:#92b037;
+}	
+
+blockquote{
+	border-left:2px solid #92b037;
+}
+
+.navigation .current-menu-item a{
+	color:#92b037;
+}
+
+.navbar-inverse .nav .active>a, .navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus,.navbar-inverse .brand, .navbar-inverse .nav>li>a ,.navbar-inverse .nav>li>a:hover  {
+	color: #92b037;
+}
+
+.date-color{
+	color:#b4d15a;
+}
+
+.sidebartitle{
+	color: #92b037;
+}
+
+#searchsubmit{
+	color:#b4d15a;
+}	
+
+#searchsubmit:hover{
+	color: #92b037;
+}
+
+.pagination .active{
+	color:#92b037;
+}
+
+.pages .current{
+	color:#92b037;
+}
+
+#wp-calendar tfoot #prev{
+	color:#92b037;
+}
+
+#wp-calendar th,#wp-calendar caption,#wp-calendar tfoot #prev a{
+	color:#92b037;
+}
+
+.diamondtheme-post-pagination > .currentpostno{
+	color:#92b037;
+}
+
+.flexslider .flex-prev,.flexslider .flex-next {
+	background: #92b037;
+}	
+
+.flexslider .innernav{
+	background: #92b037;
+}	
+
+.flexslider .flex-prev:hover,.flexslider .flex-next:hover {
+	color:#92b037;
+}
+
+.slideoverlay{
+	background:rgba(180,209,90,0.25);
+}
+
+.flex-control-paging li a:hover {
+	background:#85ab10;	
+}
+
+.flex-control-paging li a.flex-active {
+	background:#85ab10;
+}
+
+.fraction-slider .prev,.fraction-slider .next {
+	background: #92b037;
+}
+
+.fraction-slider .innernav{
+	background: #92b037;
+}
+
+.fraction-slider .prev:hover,.fraction-slider .next:hover {
+	color:#92b037;
+}
+
+
+@media (max-width: 979px) {
+	
+	.dropdown-menu a {
+		color: #b4d15a!important;
+	}
+
+}	
+
+
+
+
+	

@@ -1,0 +1,174 @@
+.generalbox_block textarea, .generalbox_block input[type="text"],.generalbox_block input{
+	padding:8px;
+	width:60%;
+}
+
+.generalbox_block{
+	width:100%;
+}
+
+.generalbox_block tr{
+	height:40px;
+	margin-top:5px;
+}
+
+.generalbox_block .td1{
+	width:20%;
+}
+
+.generalbox_block .upload_image_button,.generalbox_block .add_new_button{
+	position: relative;
+	left: 30px;
+	display:inline-block;
+	width:15%;
+}
+
+.meta_block{
+	padding:5px 0;
+}
+
+.meta_block input[type="text"], input[type="password"], input[type="number"], input[type="search"], input[type="email"], input[type="url"]{
+	padding:7px 10px;
+}
+
+.meta_block input[type="text"],textarea{
+	width:60%;
+}
+
+.meta_block input[type="number"]{
+	width:70px;
+}
+
+.meta_block .upload_image_button{
+	height:31px;
+	margin-left:20px;
+	vertical-align:top;
+}
+
+.meta_block .desc{
+	margin:10px 0 0 170px;
+	font-weight:bold;
+	font-size:13px;
+}
+
+.meta_option_label{
+	width:167px;
+	display:inline-block;
+	vertical-align:middle;	
+	font-size:13px;
+}
+
+.meta_option_value{
+	width:70%;
+	display:inline-block;
+	vertical-align:middle;		
+}
+
+.textareadesc{
+	height:150px!important;
+}
+
+.textareadesc .td1{
+	padding-top:55px;
+}
+
+.textareadesc td,.textdesc td{
+	vertical-align:top;
+}
+
+.textareadesc p,.textdesc p{
+	position:absolute;
+	bottom:-5px;
+	font-weight:bold;
+	left:21%;
+}
+
+.textdesc{
+	height:70px!important;
+}
+
+.textdesc .td1{
+	padding-top:15px;
+}
+
+#featured_image11{
+	max-width:250px;
+}
+
+.side-box textarea, .side-box input[type="text"],.side-box input{
+	width:100%;
+	display:block;
+	margin-bottom: 10px;
+}
+
+.skillset{
+	width:100%;
+}
+
+.skillset textarea, .skillset input[type="text"],.skillset input{
+	padding:8px;
+	width:240px;
+}
+
+.skillset .upload_image_button{
+	width:100px;
+}
+
+.adminsocial{
+	width:100%;
+}
+
+.adminsocial td{
+	width:30%;
+	margin-right:2%;
+}
+
+.adminsocial label{
+	min-width:85px;
+	display:inline-block;
+}
+
+.adminsocial input[type="text"]{
+	width:55%;
+}
+
+#section-bodyfont1 .resetfont,#section-headingfont1 .resetfont,#section-menufont .resetfont{
+	display:inline-block;
+}
+
+.resetfont{
+	display:none;
+	background: #f3f3f3;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#f3f3f3));
+	background-image: -webkit-linear-gradient(top,#fff,#f3f3f3);
+	background-image: -moz-linear-gradient(top,#fff,#f3f3f3);
+	background-image: -ms-linear-gradient(top,#fff,#f3f3f3);
+	background-image: -o-linear-gradient(top,#fff,#f3f3f3);
+	background-image: linear-gradient(to bottom,#fff,#f3f3f3);
+	border-color: #999;
+	color: #222;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-border-radius: 3px;
+	-webkit-appearance: none;
+	border-radius: 3px;
+	white-space: nowrap;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 28px;
+	margin-left: 25px;
+	padding: 0 10px;
+	position: relative;
+	top: -2px;
+}
+
+#potfolioinfo{
+	background:transparent!important;
+	color:#777;
+}
+
+#potfolioinfo h4{
+	font-weight:normal!important;
+	color:#777;	
+}

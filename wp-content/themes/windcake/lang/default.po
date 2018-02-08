@@ -1,0 +1,618 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DiamondTheme\n"
+"POT-Creation-Date: 2013-11-25 20:10+0530\n"
+"PO-Revision-Date: 2013-11-25 20:10+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;__;_e;_n_noop\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../archive.php:40 ../author.php:40 ../category.php:40 ../index.php:28
+#: ../tag.php:40 ../template-blog.php:42
+msgid "Previous"
+msgstr ""
+
+#: ../archive.php:42 ../author.php:42 ../category.php:42 ../index.php:30
+#: ../tag.php:42 ../template-blog.php:44
+msgid "Next"
+msgstr ""
+
+#: ../blogcontent.php:24 ../blogcontent.php:65 ../blogcontent.php:123
+#: ../blogcontent.php:169 ../blogcontent.php:209 ../blogcontent.php:249
+#: ../blogcontent.php:290 ../content.php:22 ../content.php:73
+#: ../content.php:141 ../content.php:197 ../content.php:247 ../content.php:297
+#: ../content.php:348
+msgid "Posted In "
+msgstr ""
+
+#: ../blogcontent.php:36 ../blogcontent.php:77 ../blogcontent.php:135
+#: ../blogcontent.php:181 ../blogcontent.php:221 ../blogcontent.php:261
+#: ../blogcontent.php:302 ../content.php:34 ../content.php:85
+#: ../content.php:153 ../content.php:209 ../content.php:259 ../content.php:309
+#: ../content.php:360
+msgid "0 Comments"
+msgstr ""
+
+#: ../blogcontent.php:36 ../blogcontent.php:77 ../blogcontent.php:135
+#: ../blogcontent.php:181 ../blogcontent.php:221 ../blogcontent.php:261
+#: ../blogcontent.php:302 ../content.php:34 ../content.php:85
+#: ../content.php:153 ../content.php:209 ../content.php:259 ../content.php:309
+#: ../content.php:360
+msgid "1 Comment"
+msgstr ""
+
+#: ../blogcontent.php:36 ../blogcontent.php:77 ../blogcontent.php:135
+#: ../blogcontent.php:181 ../blogcontent.php:221 ../blogcontent.php:261
+#: ../blogcontent.php:302 ../content.php:34 ../content.php:85
+#: ../content.php:153 ../content.php:209 ../content.php:259 ../content.php:309
+#: ../content.php:360
+msgid "% Comments"
+msgstr ""
+
+#: ../content.php:43 ../content.php:94 ../content.php:162 ../content.php:218
+#: ../content.php:268 ../content.php:318 ../content.php:369
+msgid "Pages : "
+msgstr ""
+
+#: ../functions.php:46
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: ../options.php:32
+msgid "blue"
+msgstr ""
+
+#: ../options.php:33
+msgid "violet"
+msgstr ""
+
+#: ../options.php:34
+msgid "orange"
+msgstr ""
+
+#: ../options.php:35
+msgid "green"
+msgstr ""
+
+#: ../options.php:40
+msgid "Facebook"
+msgstr ""
+
+#: ../options.php:41
+msgid "Twitter"
+msgstr ""
+
+#: ../options.php:42
+msgid "Pinterest"
+msgstr ""
+
+#: ../options.php:124
+msgid "General Settings"
+msgstr ""
+
+#: ../options.php:129
+msgid "Custom Favicon"
+msgstr ""
+
+#: ../options.php:137
+msgid "Custom Logo"
+msgstr ""
+
+#: ../options.php:144
+msgid "Retina Logo"
+msgstr ""
+
+#: ../options.php:151
+msgid "Iphone icon"
+msgstr ""
+
+#: ../options.php:158
+msgid "Iphone retina icon"
+msgstr ""
+
+#: ../options.php:165
+msgid "Ipad icon"
+msgstr ""
+
+#: ../options.php:172
+msgid "Ipad retina icon"
+msgstr ""
+
+#: ../options.php:179
+msgid "Scroller Settings"
+msgstr ""
+
+#: ../options.php:184
+msgid "Custom Scroller"
+msgstr ""
+
+#: ../options.php:192
+msgid "Style Options"
+msgstr ""
+
+#: ../options.php:197
+msgid "Color Scheme"
+msgstr ""
+
+#: ../options.php:198
+msgid "Choose the color scheme."
+msgstr ""
+
+#: ../options.php:206
+msgid "Font Switcher"
+msgstr ""
+
+#: ../options.php:214
+msgid "Body Font"
+msgstr ""
+
+#: ../options.php:219
+msgid "Heading Font"
+msgstr ""
+
+#: ../options.php:224
+msgid "Menu Font"
+msgstr ""
+
+#: ../options.php:229
+msgid "Custom CSS"
+msgstr ""
+
+#: ../options.php:235
+msgid "Custom Javascript"
+msgstr ""
+
+#: ../options.php:241
+msgid "Footer"
+msgstr ""
+
+#: ../options.php:246
+msgid "Copyright Message"
+msgstr ""
+
+#: ../options.php:253
+msgid "Testimonials"
+msgstr ""
+
+#: ../options.php:258
+msgid "Background Image"
+msgstr ""
+
+#: ../options.php:265
+msgid "SEO Options"
+msgstr ""
+
+#: ../options.php:270
+msgid "Tracking Code"
+msgstr ""
+
+#: ../options.php:276
+msgid "Site Description"
+msgstr ""
+
+#: ../options.php:282
+msgid "Site Keywords (seperated by commas)"
+msgstr ""
+
+#: ../admin/options-framework.php:173 ../admin/options-framework.php:405
+msgid "Theme Options"
+msgstr ""
+
+#: ../admin/options-framework.php:206
+msgid "Clear"
+msgstr ""
+
+#: ../admin/options-framework.php:207
+msgid "Default"
+msgstr ""
+
+#: ../admin/options-framework.php:208
+msgid "Select Color"
+msgstr ""
+
+#: ../admin/options-framework.php:249 ../admin/options-framework.php:270
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../admin/options-framework.php:301
+msgid "Default options restored."
+msgstr ""
+
+#: ../admin/options-framework.php:355
+msgid "Options saved."
+msgstr ""
+
+#: ../admin/options-media-uploader.php:51
+msgid "No file chosen"
+msgstr ""
+
+#: ../admin/options-media-uploader.php:54
+#: ../admin/options-media-uploader.php:108
+msgid "Upload"
+msgstr ""
+
+#: ../admin/options-media-uploader.php:56
+#: ../admin/options-media-uploader.php:109
+msgid "Remove"
+msgstr ""
+
+#: ../admin/options-media-uploader.php:59
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../admin/options-media-uploader.php:83
+msgid "View File"
+msgstr ""
+
+#: ../admin/options-sanitize.php:233
+msgid "No Repeat"
+msgstr ""
+
+#: ../admin/options-sanitize.php:234
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../admin/options-sanitize.php:235
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../admin/options-sanitize.php:236
+msgid "Repeat All"
+msgstr ""
+
+#: ../admin/options-sanitize.php:249
+msgid "Top Left"
+msgstr ""
+
+#: ../admin/options-sanitize.php:250
+msgid "Top Center"
+msgstr ""
+
+#: ../admin/options-sanitize.php:251
+msgid "Top Right"
+msgstr ""
+
+#: ../admin/options-sanitize.php:252
+msgid "Middle Left"
+msgstr ""
+
+#: ../admin/options-sanitize.php:253
+msgid "Middle Center"
+msgstr ""
+
+#: ../admin/options-sanitize.php:254
+msgid "Middle Right"
+msgstr ""
+
+#: ../admin/options-sanitize.php:255
+msgid "Bottom Left"
+msgstr ""
+
+#: ../admin/options-sanitize.php:256
+msgid "Bottom Center"
+msgstr ""
+
+#: ../admin/options-sanitize.php:257
+msgid "Bottom Right"
+msgstr ""
+
+#: ../admin/options-sanitize.php:270
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../admin/options-sanitize.php:271
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../admin/options-sanitize.php:345
+msgid "Normal"
+msgstr ""
+
+#: ../admin/options-sanitize.php:346
+msgid "Italic"
+msgstr ""
+
+#: ../admin/options-sanitize.php:347
+msgid "Bold"
+msgstr ""
+
+#: ../admin/options-sanitize.php:348
+msgid "Bold Italic"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:155
+#: ../functions/recommend-plugins.php:76
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:156
+#: ../functions/recommend-plugins.php:77
+msgid "Install Plugins"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:157
+#: ../functions/recommend-plugins.php:78
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:159
+#: ../functions/recommend-plugins.php:80
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:160
+#: ../functions/recommend-plugins.php:81
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:161
+#: ../functions/recommend-plugins.php:82
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:162
+#: ../functions/recommend-plugins.php:83
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:163
+#: ../functions/recommend-plugins.php:84
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:164
+#: ../functions/recommend-plugins.php:85
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:165
+#: ../functions/recommend-plugins.php:86
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:166
+#: ../functions/recommend-plugins.php:87
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:167
+#: ../functions/recommend-plugins.php:88
+msgid "Begin installing plugin"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:168
+#: ../functions/recommend-plugins.php:89
+msgid "Activate installed plugin"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:169
+#: ../functions/recommend-plugins.php:90
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:171
+#: ../functions/class-tgm-plugin-activation.php:1840
+#: ../functions/recommend-plugins.php:91
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:172
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1950
+#: ../functions/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1950
+#: ../functions/class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../functions/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../functions/recommend-plugins.php:79
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../functions/recommend-plugins.php:92
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../functions/widget_areas.php:10
+msgid "Blog"
+msgstr ""
+
+#: ../functions/widget_areas.php:19
+msgid "HomePage"
+msgstr ""
