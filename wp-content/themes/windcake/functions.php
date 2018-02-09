@@ -43,7 +43,8 @@ add_image_size( 'testimonial', 155, 155, true );
 register_nav_menus(
 	array(
       'left' => 'Left Menu',
-	  'right' => 'Right Menu'
+	  'right' => 'Right Menu',
+            'main-menu'=>'Menu top (principal)'
     )
 );
 

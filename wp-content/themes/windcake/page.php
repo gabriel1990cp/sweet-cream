@@ -5,7 +5,7 @@ Default Page
  ?>
 <?php get_header(); ?>
 
-<div class="pagetitle">
+<!--<div class="pagetitle">
 			
 	<div class="container titleinner">		
 		<span class="titlestart">{</span>	
@@ -13,7 +13,7 @@ Default Page
 		<span class="titlestart">}</span>		
 	</div>	
 		
-</div>
+</div>-->
 
 <div class="container blog-content1">					
 
