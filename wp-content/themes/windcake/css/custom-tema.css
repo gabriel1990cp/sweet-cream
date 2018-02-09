@@ -1,0 +1,102 @@
+/*Alterações personalizadas do tema principal
+*/
+
+@font-face {
+    font-family: 'Museo 700';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Museo 700'), url('css/fonts/Museo700-Regular.woff') format('woff');
+}
+
+body,.header,section{
+    font-family:'Museo 700';
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Museo 700', helvetica;
+}
+
+.divisor-sessao {
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.header {
+    text-transform: uppercase;
+    background-color: #fea027;
+}
+.header a{
+    color: #ffffff;
+}
+
+
+.navigation li {
+    line-height: 40px;
+}
+.navright .navigation {
+    float: none;
+}
+
+.navigation li a {
+    font-size: 20px;
+    padding: 15px;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .header-logo {
+        text-align: left;
+    }
+    .menu-principal {
+        width: 85% !important;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

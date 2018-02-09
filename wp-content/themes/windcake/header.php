@@ -80,7 +80,7 @@
                     if (!is_page_template('template-home.php')) { ?>
                   
                         <!--menu principal-->
-                        <div class="nav-collapse navright"> 
+                        <div class="nav-collapse navright menu-principal"> 
                             <?php
                             wp_nav_menu(array(
                                 'menu' => 'main-menu',
