@@ -1,20 +1,26 @@
 /*
 Alterações personalizadas do tema principal
 */
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 @font-face {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Bree Serif', serif;
     font-weight: normal;
 }
 
 body, .header, section {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Bree Serif', serif;
+    font-weight: 700; 
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bree Serif', serif;
+    text-align:center; 
+}
+
+p {
     font-family: 'Roboto Slab', serif;
-    text-align:center;
 }
 
 .divisor-sessao {
@@ -42,8 +48,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navigation li a {
-    font-size: 17px;
-    padding: 15px;
+    font-size: 19px;
+    padding: 13px;
 }
 
 /*==========  Mobile First Method  ==========*/
