@@ -14,6 +14,7 @@ body, .header, section {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
+    text-align:center;
 }
 
 .divisor-sessao {
@@ -37,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navright .navigation {
     float: none;
-    margin-left: 128px; 
+    margin-left: 128px;
 }
 
 .navigation li a {
