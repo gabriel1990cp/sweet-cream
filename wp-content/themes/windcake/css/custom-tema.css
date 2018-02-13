@@ -98,6 +98,19 @@ FIM SESSÃO EMPRESA
     width: 110px;
 }
 
+#grid-produtos .vc_grid-item-zone-c-left .vc_gitem-zone-c,
+#grid-produtos .vc_grid-item-zone-c-right .vc_gitem-animated-block {
+    width: 40% !important;
+}
+#grid-produtos .vc_grid-item-zone-c-right .vc_gitem-zone-c {
+    width: 60% !important;
+}
+
+#grid-produtos .vc_btn3.vc_btn3-color-blue,
+#grid-produtos .vc_btn3.vc_btn3-color-blue.vc_btn3-style-flat{
+    background-color: #fea027;
+}
+
 .categorias-produtos {
     text-align: left !important;
 }
