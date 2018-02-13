@@ -34,7 +34,7 @@ p {
 
 INÍCIO SESSÃO EMPRESA
 
- */
+*/
 
 .img-hr-vertical {
     margin-top: 25px;
@@ -49,7 +49,7 @@ INÍCIO SESSÃO EMPRESA
 
 FIM SESSÃO EMPRESA
 
- */
+*/
 
 .divisor-sessao {
     font-size: 40px;
@@ -89,6 +89,15 @@ FIM SESSÃO EMPRESA
 .titulo-empresa {
     margin-top: 32px;
 }
+
+
+/*SESSÃO PRODUTOS*/
+.img-produtos img {
+    background-color: #fce28e !important;
+    border-radius: 50% !important;
+}
+
+/*FIM SESSÃO PRODUTOS*/
 
 /*==========  Mobile First Method  ==========*/
 
