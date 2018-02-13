@@ -95,6 +95,11 @@ FIM SESSÃO EMPRESA
 .img-produtos img {
     background-color: #fce28e !important;
     border-radius: 50% !important;
+    width: 110px;
+}
+
+.categorias-produtos {
+    text-align: left !important;
 }
 
 /*FIM SESSÃO PRODUTOS*/
