@@ -1,8 +1,8 @@
 /*
 Alterações personalizadas do tema principal
 */
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round');
 
 @font-face {
     font-family: 'Bree Serif', serif;
@@ -10,11 +10,11 @@ Alterações personalizadas do tema principal
 }
 
 body, .header, section {
-    font-family: 'Bree Serif', serif;
+   font-family: 'Crete Round', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Bree Serif', serif;
+   font-family: 'Crete Round', serif;
     text-align: center;
 }
 
@@ -25,48 +25,53 @@ p {
     margin: 0;
 }
 
+
+/*INÍCIO SESSÃO EMPRESA*/
+
 .inicio-frase-empresa {
-    font-size: 22px;
-    color: #e68e22;
+	font-size: 21px;
+	color: #e68e22;
+	font-weight: bold;
 }
 
-/*
-
-INÍCIO SESSÃO EMPRESA
-
-*/
-
 .img-hr-vertical {
-    margin-top: 25px;
-    margin-left: 30px;
+    margin-left:17px;
 }
 
 .frase-texto-empresa {
-    font-family: 'Bree Serif', serif;
+    font-family: 'Crete Round', serif;
+    font-size: 25px;
+    text-align: left;
 }
 
-/*
+.wpb_wrapper p {
+	margin: 0;
+	line-height: 1.5; 
+}
 
-FIM SESSÃO EMPRESA
+.titulo-empresa {
+    margin-top: 32px;
+}
 
-*/
+.alignleft {
+	margin-top: 22px;
+}
+
+/*FIM SESSÃO EMPRESA*/
 
 
-/*
 
-INÍCIO FOOTER
 
-*/
+/* INÍCIO FOOTER */
 
 .social{
 	border-radius:0;
 }
 
-/*
 
-FIM FOOTER
+/* FIM FOOTER */
 
-*/
+
 
 
 
@@ -95,7 +100,7 @@ FIM FOOTER
 }
 
 .navigation li a {
-    font-size: 19px;
+    font-size: 20px;
     padding: 12px;
 }
 
@@ -103,10 +108,6 @@ FIM FOOTER
     width: 200% !important;
     margin-left: -50% !important;
     margin-bottom: 72px !important;
-}
-
-.titulo-empresa {
-    margin-top: 32px;
 }
 
 
