@@ -70,8 +70,32 @@ section#como-usar {
 .hesperiden.tparrows:before {
     color: rgba(245, 198, 79, 1);
 }
-
 /*FIM COMO USAR*/
+
+/*PPRODUTOS*/
+.slider-produtos div {
+    background: #fff !important;
+}
+#produtos .titulo-produtos {
+    margin-top: -20px !important;
+}
+
+#produtos .titulo-produtos h4{
+    color: #955d5c;
+}
+#produtos .categorias-produtos span,.categorias-produtos span:hover {
+    color: #900000;
+}
+#produtos .vc_gitem-post-data {
+    margin-bottom: -5px;
+}
+
+/*MANDE SUA RECEITA*/
+section#mande-sua-receita {
+    padding-left: 25% !important;
+    padding-right: 25% !important;
+    /*FIM COMO USAR*/
+}
 
 /* INÍCIO FOOTER */
 
