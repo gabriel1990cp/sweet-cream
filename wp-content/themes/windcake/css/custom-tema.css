@@ -90,13 +90,6 @@ section#como-usar {
     margin-bottom: -5px;
 }
 
-/*MANDE SUA RECEITA*/
-section#mande-sua-receita {
-    padding-left: 25% !important;
-    padding-right: 25% !important;
-    /*FIM COMO USAR*/
-}
-
 /* INÍCIO FOOTER */
 
 .social{
@@ -199,8 +192,6 @@ section#mande-sua-receita {
         margin-top: 25% !important;
     }
 
-
-
 }
 
 /* Medium Devices, Desktops */
@@ -220,6 +211,11 @@ section#mande-sua-receita {
     .tp-leftarrow.tparrows.hesperiden {
         margin-top: 12% !important;
     }
+    section#mande-sua-receita {
+        padding-left: 25% !important;
+        padding-right: 25% !important;
+    }
+
 
 }
 
