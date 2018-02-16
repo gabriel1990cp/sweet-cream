@@ -27,7 +27,6 @@ p {
 
 
 /*INÍCIO SESSÃO EMPRESA*/
-
 .inicio-frase-empresa {
     font-size: 21px;
     color: #e68e22;
@@ -56,8 +55,9 @@ p {
 .alignleft {
     margin-top: 22px;
 }
-
 /*FIM SESSÃO EMPRESA*/
+
+
 
 /*INICIO COMO USAR*/
 section#como-usar {
@@ -71,6 +71,7 @@ section#como-usar {
     color: rgba(245, 198, 79, 1);
 }
 /*FIM COMO USAR*/
+
 
 /*PPRODUTOS*/
 .slider-produtos div {
@@ -89,11 +90,20 @@ section#como-usar {
 #produtos .vc_gitem-post-data {
     margin-bottom: -5px;
 }
+/*FIM PPRODUTOS*/ 
 
 /* INÍCIO FOOTER */
 
 .social{
     border-radius:0;
+}
+
+.footer{
+	height: 130px;
+}
+
+.social{
+	margin-top: 50px; 
 }
 
 
