@@ -66,6 +66,11 @@ section#como-usar {
 .descricao-slider-como-usar h2 {
     line-height: 30px !important;
 }
+/*cor seta*/
+.hesperiden.tparrows:before {
+    color: rgba(245, 198, 79, 1);
+}
+
 /*FIM COMO USAR*/
 
 /* INÍCIO FOOTER */
@@ -158,6 +163,20 @@ section#como-usar {
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
 
+
+    /*setas slider como usar*/
+    .tp-leftarrow.tparrows.hesperiden {
+        margin-left: 10% !important;
+        margin-top: 25% !important;
+    }
+
+    .tp-rightarrow.tparrows.hesperiden {
+        margin-left: 20% !important;
+        margin-top: 25% !important;
+    }
+
+
+
 }
 
 /* Medium Devices, Desktops */
@@ -169,11 +188,22 @@ section#como-usar {
     .menu-principal {
         width: 85% !important;
     }
+    /*setas slider como usar*/
+    .tp-rightarrow.tparrows.hesperiden {
+        margin-top: 12% !important;
+    }
+
+    .tp-leftarrow.tparrows.hesperiden {
+        margin-top: 12% !important;
+    }
+
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
-
+    .tp-leftarrow.tparrows.hesperiden {
+        margin-left: 15% !important;
+    }
 }
 
 /*==========  Non-Mobile First Method  ==========*/
@@ -196,6 +226,15 @@ section#como-usar {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
 
+    /*setas slider como usar*/
+    .tp-rightarrow.tparrows.hesperiden {
+        margin-left: 20% !important;
+        margin-top: 55% !important;
+    }
+
+    .tp-leftarrow.tparrows.hesperiden {
+        margin-top: 55% !important;
+    }
 }
 
 /* Custom, iPhone Retina */
