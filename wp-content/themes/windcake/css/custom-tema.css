@@ -59,8 +59,11 @@ p {
 
 /*FIM SESSÃO EMPRESA*/
 
-
-
+/*INICIO COMO USAR*/
+.descricao-slider-como-usar h2 {
+    line-height: 30px !important;
+}
+/*FIM COMO USAR*/
 
 /* INÍCIO FOOTER */
 
