@@ -10,11 +10,11 @@ Alterações personalizadas do tema principal
 }
 
 body, .header, section {
-   font-family: 'Crete Round', serif;
+    font-family: 'Crete Round', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-   font-family: 'Crete Round', serif;
+    font-family: 'Crete Round', serif;
     text-align: center;
 }
 
@@ -29,9 +29,9 @@ p {
 /*INÍCIO SESSÃO EMPRESA*/
 
 .inicio-frase-empresa {
-	font-size: 21px;
-	color: #e68e22;
-	font-weight: bold;
+    font-size: 21px;
+    color: #e68e22;
+    font-weight: bold;
 }
 
 .img-hr-vertical {
@@ -45,8 +45,8 @@ p {
 }
 
 .wpb_wrapper p {
-	margin: 0;
-	line-height: 1.5; 
+    margin: 0;
+    line-height: 1.5; 
 }
 
 .titulo-empresa {
@@ -54,12 +54,15 @@ p {
 }
 
 .alignleft {
-	margin-top: 22px;
+    margin-top: 22px;
 }
 
 /*FIM SESSÃO EMPRESA*/
 
 /*INICIO COMO USAR*/
+section#como-usar {
+    margin-bottom: 40px;
+}
 .descricao-slider-como-usar h2 {
     line-height: 30px !important;
 }
@@ -68,7 +71,7 @@ p {
 /* INÍCIO FOOTER */
 
 .social{
-	border-radius:0;
+    border-radius:0;
 }
 
 
