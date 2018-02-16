@@ -26,7 +26,7 @@ p {
 }
 
 
-/*INÍCIO SESSÃO EMPRESA*/
+/*EMPRESA*/
 .inicio-frase-empresa {
     font-size: 21px;
     color: #e68e22;
@@ -55,11 +55,11 @@ p {
 .alignleft {
     margin-top: 22px;
 }
-/*FIM SESSÃO EMPRESA*/
+/*FIM EMPRESA*/
 
 
 
-/*INICIO COMO USAR*/
+/*COMO USAR*/
 section#como-usar {
     margin-bottom: 40px;
 }
@@ -92,25 +92,18 @@ section#como-usar {
 }
 /*FIM PPRODUTOS*/ 
 
-/* INÍCIO FOOTER */
+/*FOOTER */
 
 .social{
     border-radius:0;
 }
-
 .footer{
 	height: 130px;
 }
-
 .social{
 	margin-top: 50px; 
 }
-
-
 /* FIM FOOTER */
-
-
-
 
 
 .divisor-sessao {
@@ -141,21 +134,18 @@ section#como-usar {
     font-size: 20px;
     padding: 12px;
 }
-
 .hr-sessao {
     width: 200% !important;
     margin-left: -50% !important;
     margin-bottom: 72px !important;
 }
 
-
-/*SESSÃO PRODUTOS*/
+/* PRODUTOS*/
 .img-produtos img {
     background-color: #fce28e !important;
     border-radius: 50% !important;
     width: 110px;
 }
-
 #grid-produtos .vc_grid-item-zone-c-left .vc_gitem-zone-c,
 #grid-produtos .vc_grid-item-zone-c-right .vc_gitem-animated-block {
     width: 40% !important;
@@ -163,17 +153,15 @@ section#como-usar {
 #grid-produtos .vc_grid-item-zone-c-right .vc_gitem-zone-c {
     width: 60% !important;
 }
-
 #grid-produtos .vc_btn3.vc_btn3-color-blue,
 #grid-produtos .vc_btn3.vc_btn3-color-blue.vc_btn3-style-flat{
     background-color: #fea027;
 }
-
 .categorias-produtos {
     text-align: left !important;
 }
 
-/*FIM SESSÃO PRODUTOS*/
+/*FIM PRODUTOS*/
 
 /*==========  Mobile First Method  ==========*/
 
