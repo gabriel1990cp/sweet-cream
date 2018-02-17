@@ -92,16 +92,25 @@ section#como-usar {
 }
 /*FIM PPRODUTOS*/ 
 
+/*CONTATO*/
+
+.imagem-contato {
+    height: 276px;
+    background-repeat: no-repeat;
+}
+
+/*FIM CONTATO*/
+
 /*FOOTER */
 
 .social{
     border-radius:0;
 }
 .footer{
-	height: 130px;
+    height: 130px;
 }
 .social{
-	margin-top: 50px; 
+    margin-top: 50px; 
 }
 /* FIM FOOTER */
 
