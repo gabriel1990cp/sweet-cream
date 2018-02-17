@@ -102,6 +102,19 @@ section#como-usar {
     background-repeat: no-repeat;
 }
 
+.img-telefone{
+    margin-top: 5px;
+}
+
+.sub-titulo h4{
+    text-align: left;
+    margin-bottom: -20px;
+}
+
+.texto-contato{
+    float: right;
+}
+
 /*FIM CONTATO*/
 
 /*FOOTER */
@@ -115,7 +128,9 @@ section#como-usar {
 .social{
     margin-top: 50px; 
 }
-/* FIM FOOTER */
+
+
+    /* FIM FOOTER */
 
 
 .divisor-sessao {
