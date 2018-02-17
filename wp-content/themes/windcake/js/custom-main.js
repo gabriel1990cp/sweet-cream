@@ -51,5 +51,10 @@
             }
         });
 
+        jQuery('.icones-mande-sua-receita').on('click', function (e) {
+            alert('Teste');
+            jQuery( "#modal" ).show();
+        });
+
     });
 })(jQuery);
