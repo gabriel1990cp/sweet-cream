@@ -1,5 +1,13 @@
 (function ($) {
     'use strict';
+
+
+    /*Espera todas as requisições ajax terminarem*/
+    $(document).ajaxStop(function () {
+        jQuery('.vc_grid-btn-load_more a').html('Ver mais produtos');
+
+    });
+
     jQuery(document).ready(function () {
 
         /* 1. MENU JS */
