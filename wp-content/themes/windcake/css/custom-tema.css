@@ -124,6 +124,14 @@ section#como-usar {
     margin-left: 60px;
 }
 
+.email-contato{
+    color: #4d250c;
+}
+
+.email-contato:hover{
+    color: #4d250c;
+}
+
 /*FIM CONTATO*/
 
 /*FOOTER */
