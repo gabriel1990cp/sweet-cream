@@ -283,6 +283,10 @@ section#como-usar {
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
 
+    .navigation{
+        margin-left: 0px !important;
+    }
+
 }
 
 /* Extra Small Devices, Phones */
@@ -296,6 +300,11 @@ section#como-usar {
 
     .tp-leftarrow.tparrows.hesperiden {
         margin-top: 55% !important;
+    }
+
+    .header-logo .logo, .header-logo .logo img
+    {
+        width: 180px;
     }
 }
 
