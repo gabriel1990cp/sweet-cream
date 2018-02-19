@@ -37,7 +37,7 @@ p {
 }
 
 .img-hr-vertical {
-    margin-left:17px;
+    margin-left: 17px;
 }
 
 .frase-texto-empresa {
@@ -48,7 +48,7 @@ p {
 
 .wpb_wrapper p {
     margin: 0;
-    line-height: 1.5; 
+    line-height: 1.5;
 }
 
 .titulo-empresa {
@@ -58,97 +58,92 @@ p {
 .alignleft {
     margin-top: 22px;
 }
+
 /*FIM EMPRESA*/
-
-
 
 /*COMO USAR*/
 section#como-usar {
     margin-bottom: 40px;
 }
+
 .descricao-slider-como-usar h2 {
     line-height: 30px !important;
 }
+
 /*cor seta*/
 .hesperiden.tparrows:before {
     color: rgba(245, 198, 79, 1);
 }
-/*FIM COMO USAR*/
 
+.descricao-slider-como-usar {
+    left: 75px !important;
+}
+
+/*FIM COMO USAR*/
 
 /*PPRODUTOS*/
 
-.produtos{
+.produtos {
     margin-top: 40px;
 }
 
 .slider-produtos div {
     background: #fff !important;
 }
+
 #produtos .titulo-produtos {
     margin-top: -20px !important;
 }
 
-#produtos .titulo-produtos h4{
+#produtos .titulo-produtos h4 {
     color: #955d5c;
 }
-#produtos .categorias-produtos span,.categorias-produtos span:hover {
+
+#produtos .categorias-produtos span, .categorias-produtos span:hover {
     color: #900000;
 }
+
 #produtos .vc_gitem-post-data {
     margin-bottom: -5px;
 }
-/*FIM PPRODUTOS*/ 
+
+/*FIM PPRODUTOS*/
 
 /*CONTATO*/
-
-.imagem-contato {
-    height: 276px;
-    background-repeat: no-repeat;
-}
-
-.img-telefone{
-    margin-top: 5px;
-}
-
-.sub-titulo h4{
+.sub-titulo h4 {
     text-align: left;
     margin-bottom: -20px;
 }
 
-.texto-contato{
-    float: right;
-}
-
-.texto-fabrica{
-    margin-left: 60px;
-}
-
-.email-contato{
+.email-contato {
     color: #4d250c;
 }
 
-.email-contato:hover{
+.email-contato:hover {
     color: #4d250c;
+}
+
+.imagem-contato {
+    height: 275px;
 }
 
 /*FIM CONTATO*/
 
 /*FOOTER */
 
-.social{
-    border-radius:0;
+.social {
+    border-radius: 0;
 }
-.footer{
+
+.footer {
     height: 130px;
 }
-.social{
-    margin-top: 50px; 
+
+.social {
+    margin-top: 50px;
 }
 
-
-    /* FIM FOOTER */
-
+/* FIM FOOTER */
 
 .divisor-sessao {
     font-size: 40px;
@@ -178,6 +173,7 @@ section#como-usar {
     font-size: 20px;
     padding: 12px;
 }
+
 .hr-sessao {
     width: 200% !important;
     margin-left: -50% !important;
@@ -190,17 +186,21 @@ section#como-usar {
     border-radius: 50% !important;
     width: 110px;
 }
+
 #grid-produtos .vc_grid-item-zone-c-left .vc_gitem-zone-c,
 #grid-produtos .vc_grid-item-zone-c-right .vc_gitem-animated-block {
     width: 40% !important;
 }
+
 #grid-produtos .vc_grid-item-zone-c-right .vc_gitem-zone-c {
     width: 60% !important;
 }
+
 #grid-produtos .vc_btn3.vc_btn3-color-blue,
-#grid-produtos .vc_btn3.vc_btn3-color-blue.vc_btn3-style-flat{
+#grid-produtos .vc_btn3.vc_btn3-color-blue.vc_btn3-style-flat {
     background-color: #fea027;
 }
+
 .categorias-produtos {
     text-align: left !important;
 }
@@ -222,16 +222,15 @@ section#como-usar {
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
 
-
     /*setas slider como usar*/
     .tp-leftarrow.tparrows.hesperiden {
-        margin-left: 10% !important;
-        margin-top: 25% !important;
+        margin-left: 7% !important;
+        margin-top: 24% !important;
     }
 
     .tp-rightarrow.tparrows.hesperiden {
-        margin-left: 20% !important;
-        margin-top: 25% !important;
+        margin-left: 14% !important;
+        margin-top: 24% !important;
     }
 
 }
@@ -245,48 +244,79 @@ section#como-usar {
     .menu-principal {
         width: 85% !important;
     }
+
     /*setas slider como usar*/
     .tp-rightarrow.tparrows.hesperiden {
-        margin-top: 12% !important;
+        margin-top: 13% !important;
     }
 
     .tp-leftarrow.tparrows.hesperiden {
-        margin-top: 12% !important;
+        margin-top: 13% !important;
     }
+
     section#mande-sua-receita {
         padding-left: 25% !important;
         padding-right: 25% !important;
     }
-
 
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
     .tp-leftarrow.tparrows.hesperiden {
-        margin-left: 15% !important;
+        margin-left: 4% !important;
+    }
+
+    .tp-rightarrow.tparrows.hesperiden {
+        margin-left: 9% !important;
     }
 }
 
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1024px) {
 
+    .navigation li a {
+        font-size: 17px;
+        padding: 9px;
+    }
+
+    .frase-texto-empresa {
+        font-size: 20px;
+    }
+
+    .compartilhe-receita {
+        font-size: 19px;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
 
+    .navigation {
+        margin-left: 0px !important;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
 
-    .navigation{
-        margin-left: 0px !important;
+    .frase-texto-empresa {
+        font-size: 16px;
     }
 
+    .descricao-mande-sua-receita {
+
+    }
+
+    .tp-caption {
+        font-size: 23px !important;
+    }
+
+    .descricao-slider-como-usar {
+        margin-left: 0px !important;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -302,13 +332,36 @@ section#como-usar {
         margin-top: 55% !important;
     }
 
-    .header-logo .logo, .header-logo .logo img
-    {
+    .header-logo .logo, .header-logo .logo img {
         width: 180px;
     }
 }
 
+@media only screen and (max-width: 425px) {
+    .descricao-slider-como-usar {
+        left: 5px !important;
+    }
+
+    .compartilhe-receita {
+        margin-left: 30%;
+    }
+
+    .email-receita {
+        text-align: center;
+        margin-left: 25%;
+    }
+
+}
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
+
+    .frase-texto-empresa {
+        font-size: 15px;
+    }
+
+    .tp-caption {
+        font-size: 19px !important;
+    }
 
 }
