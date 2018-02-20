@@ -174,9 +174,20 @@ div.wpcf7-response-output {
 }
 
 div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
-    border: 2px solid #f2dede;
+    border: 1px solid #f2dede;
     color: #b94a48;
     background-color: #f2dede;
+}
+
+.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors,
+.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok{
+    text-align: center;
+}
+
+div.wpcf7-mail-sent-ok {
+    border-color: #d6e9c6;
+    background: #dff0d8;
+    color: #468847;
 }
 
 /* FIM FOOTER */
