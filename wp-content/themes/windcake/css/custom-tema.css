@@ -152,6 +152,33 @@ section#como-usar {
     height: 100px;
 }
 
+input.wpcf7-form-control.wpcf7-submit {
+    float: right;
+    display: block;
+    background: #fea027;
+    padding: 8px;
+    border-radius: 5px;
+    width: 30%;
+    color: #ffffff;
+}
+
+div.wpcf7-response-output {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+    border: 2px solid #f2dede;
+    color: #b94a48;
+    background-color: #f2dede;
+}
+
 /* FIM FOOTER */
 
 .divisor-sessao {
@@ -361,12 +388,12 @@ section#como-usar {
     }
 
     .imagem-contato{
-	    width: 425px !important;
-		height: 88px !important
+        width: 425px !important;
+        height: 88px !important
     }
 
     .tp-rightarrow.tparrows.hesperiden{
-    	margin-left: 15% !important;
+        margin-left: 15% !important;
     }
 
 }
@@ -383,20 +410,20 @@ section#como-usar {
     }
 
     .compartilhe-receita{
-    	margin-left: 22%;
+        margin-left: 22%;
     }
 
     .email-receita{
-    	margin-left: 18%;
+        margin-left: 18%;
     }
 
     .imagem-contato{
-    	width: 320px !important;
-    	height: 80px !important;
+        width: 320px !important;
+        height: 80px !important;
     }
 
     .descricao-slider-como-usar{
-    	margin-left: 0px !important; 
+        margin-left: 0px !important; 
     }
 
 }
@@ -405,22 +432,22 @@ section#como-usar {
 
 @media only screen and (max-width: 600px) and (orientation: landscape) {
 
-	.tp-leftarrow.tparrows.hesperiden
-	{
-		margin-left: 8% !important;
-		margin-top: 27% !important;
-	}
+    .tp-leftarrow.tparrows.hesperiden
+    {
+        margin-left: 8% !important;
+        margin-top: 27% !important;
+    }
 
-	.tp-rightarrow.tparrows.hesperiden {
+    .tp-rightarrow.tparrows.hesperiden {
         margin-left: 16% !important;
         margin-top: 27% !important;
     } 
 
     .descricao-slider-como-usar{
-    	margin-left: 0px !important;
+        margin-left: 0px !important;
     }
 
     .descricao-mande-sua-receita{
-    	margin-left: 32% !important;
+        margin-left: 32% !important;
     }
 }
