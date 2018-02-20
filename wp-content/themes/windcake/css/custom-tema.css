@@ -339,7 +339,7 @@ section#como-usar {
 
 @media only screen and (max-width: 425px) {
     .descricao-slider-como-usar {
-        left: 5px !important;
+        left: 23px !important;
     }
 
     .compartilhe-receita {
@@ -349,6 +349,15 @@ section#como-usar {
     .email-receita {
         text-align: center;
         margin-left: 25%;
+    }
+
+    .imagem-contato{
+	    width: 425px !important;
+		height: 88px !important
+    }
+
+    .tp-rightarrow.tparrows.hesperiden{
+    	margin-left: 15% !important;
     }
 
 }
@@ -364,4 +373,45 @@ section#como-usar {
         font-size: 19px !important;
     }
 
+    .compartilhe-receita{
+    	margin-left: 22%;
+    }
+
+    .email-receita{
+    	margin-left: 18%;
+    }
+
+    .imagem-contato{
+    	width: 320px !important;
+    	height: 80px !important;
+    }
+
+    .descricao-slider-como-usar{
+    	margin-left: 0px !important; 
+    }
+
+}
+
+/* PAISAGEM */
+
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+
+	.tp-leftarrow.tparrows.hesperiden
+	{
+		margin-left: 8% !important;
+		margin-top: 27% !important;
+	}
+
+	.tp-rightarrow.tparrows.hesperiden {
+        margin-left: 16% !important;
+        margin-top: 27% !important;
+    } 
+
+    .descricao-slider-como-usar{
+    	margin-left: 0px !important;
+    }
+
+    .descricao-mande-sua-receita{
+    	margin-left: 32% !important;
+    }
 }
