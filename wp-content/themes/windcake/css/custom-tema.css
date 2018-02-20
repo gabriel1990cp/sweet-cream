@@ -143,6 +143,15 @@ section#como-usar {
     margin-top: 50px;
 }
 
+.modal-content input, .modal-content textarea {
+    padding: 5px 0px;
+    margin-top: 0px;
+}
+
+.modal-content textarea{
+    height: 100px;
+}
+
 /* FIM FOOTER */
 
 .divisor-sessao {
