@@ -52,7 +52,7 @@
         });
 
         jQuery('.icones-mande-sua-receita').on('click', function (e) {
-            jQuery('#exampleModal').modal('show');
+            jQuery('#modalReceita').modal('show');
         });
 
     });
