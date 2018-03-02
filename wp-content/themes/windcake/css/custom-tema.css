@@ -29,6 +29,10 @@ p {
     margin-bottom: 0px;
 }
 
+.navright{
+    top: 33px !important;
+}
+
 /*EMPRESA*/
 .inicio-frase-empresa {
     font-size: 21px;
@@ -85,6 +89,10 @@ section#como-usar {
 
 .produtos {
     margin-top: 40px;
+}
+
+.titulo-contato{
+    font-size: 26px;
 }
 
 .slider-produtos div {
@@ -340,6 +348,7 @@ div.wpcf7-mail-sent-ok {
     .compartilhe-receita {
         font-size: 19px;
     }
+
 }
 
 /* Medium Devices, Desktops */
