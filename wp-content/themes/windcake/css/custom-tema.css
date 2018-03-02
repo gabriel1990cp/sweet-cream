@@ -317,6 +317,10 @@ div.wpcf7-mail-sent-ok {
     .tp-rightarrow.tparrows.hesperiden {
         margin-left: 9% !important;
     }
+
+    .header {
+      height:142px !important;
+}
 }
 
 /*==========  Non-Mobile First Method  ==========*/
