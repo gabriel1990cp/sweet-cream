@@ -217,6 +217,8 @@ div.wpcf7-mail-sent-ok {
 
 .navigation li {
     line-height: 40px;
+    height: auto;
+   
 }
 
 .navright .navigation {
@@ -356,7 +358,8 @@ div.wpcf7-mail-sent-ok {
 
     .navigation {
         margin-left: 0px !important;
-    }
+        min-height: 245px;
+    }  
 }
 
 /* Small Devices, Tablets */
