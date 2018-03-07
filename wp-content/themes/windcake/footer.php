@@ -1,5 +1,5 @@
 
-<!-- Modal -->
+<!-- Modal Envio Receita-->
 <div class="modal hide fade" id="modalReceita" tabindex="-1" role="dialog" aria-labelledby="modalReceitaLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
@@ -11,6 +11,27 @@
             </div>
             <div class="modal-body">
                         <?php echo do_shortcode( '[contact-form-7 id="260" title="Formulário de contato - home"]' ); ?>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+
+
+<!-- Modal Ler-->
+<div class="modal hide fade" id="modalLerReceita" tabindex="-1" role="dialog" aria-labelledby="modalLerReceitaLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h5 class="modal-title" id="modalTitulo">Receita</h5>
+            </div>
+            <div class="modal-body conteudo-receita">
+
             </div>
             <div class="modal-footer">
             </div>

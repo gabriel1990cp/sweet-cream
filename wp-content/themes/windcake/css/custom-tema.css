@@ -218,7 +218,7 @@ div.wpcf7-mail-sent-ok {
 .navigation li {
     line-height: 40px;
     height: auto;
-   
+
 }
 
 .navright .navigation {
@@ -263,6 +263,24 @@ div.wpcf7-mail-sent-ok {
 }
 
 /*FIM PRODUTOS*/
+
+/*Como uar - modal*/
+.descricao-slider-como-usar{
+    cursor: pointer;
+}
+.entry-title {
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.entry-content {
+    text-align: justify;
+}
+
+.entry-content ul li,.entry-content p {
+    font-size: 15px;
+    line-height: 20px;
+}
 
 /*==========  Mobile First Method  ==========*/
 
@@ -329,8 +347,8 @@ div.wpcf7-mail-sent-ok {
     }
 
     .header {
-      height:142px !important;
-}
+        height:142px !important;
+    }
 }
 
 /*==========  Non-Mobile First Method  ==========*/

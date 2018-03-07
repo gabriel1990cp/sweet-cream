@@ -79,6 +79,9 @@ function windcake_load_scripts()
     wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array('jquery'), '1.0', true);
     wp_enqueue_script('custom-main', get_template_directory_uri() . '/js/custom-main.js', array('jquery'), '1.0', true);
 
+    //carrega conteudo dos post via ajax
+    wp_localize_script('custom-main', 'receitas_ajax_object', array('ajax_url' => admin_url('admin-ajax.php')));
+
     // Comment replies
     if (is_single() || is_page()) {
         wp_enqueue_script('comment-reply');
@@ -124,4 +127,36 @@ function windcake_comment($comment, $args, $depth)
         $text = str_replace('rel="category tag"', "", $text);
         return $text;
     }
+
+    function receita_load_ajax_content()
+    {
+
+        $slug = $_POST['slug'];
+        $the_query = new WP_Query(array('name' => $slug));
+        WPBMap::addAllMappedShortcodes(); // converte shortcodes Visual Composer para HTML
+
+        if ($the_query->have_posts()) {
+            while ($the_query->have_posts()) {
+                $the_query->the_post();
+                $content = get_the_content();
+                $content = apply_filters('the_content', $content);
+                $content = str_replace(']]>', ']]&gt;', $content);
+
+                $data = '
+            <div class="post-container">
+                    <div class="entry-title"><h3>' . get_the_title() . '</h3></div>
+                    <div class="entry-content">' . $content . '</div>
+            </div>  
+            ';
+            }
+        } else {
+            $data = '<div id="postdata">' . __('Didnt find anything', THEME_NAME) . '</div>';
+        }
+        wp_reset_postdata();
+        echo $data;
+        die();
+    }
+
+    add_action('wp_ajax_nopriv_receita_load_ajax_content', 'receita_load_ajax_content');
+    add_action('wp_ajax_receita_load_ajax_content', 'receita_load_ajax_content');
     ?>

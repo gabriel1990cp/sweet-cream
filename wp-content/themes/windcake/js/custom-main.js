@@ -6,7 +6,41 @@
     $(document).ajaxStop(function () {
         jQuery('.vc_grid-btn-load_more a').html('Ver mais produtos');
 
+
+        function get_post_receita(slug_post, target_conteudo) {
+            var target_html = $('.' + target_conteudo);
+            target_html.html('<i class="fa fa-spinner fa-pulse fa-3x fa-fw margin-bottom"></i>');
+
+            $.ajax({
+                type: "POST",
+                url: receitas_ajax_object.ajax_url,
+                data: {
+                    action: 'receita_load_ajax_content',
+                    slug: slug_post,
+                }
+            }).done(function (conteudo) {
+                target_html.html(conteudo);
+            });
+
+        }
+
+        $('.descricao-slider-como-usar h2').on('click', function (e) {
+
+            var target_conteudo = "conteudo-receita";//local que será exibido a receita;
+            var slug = null;
+
+            //Chama modal de receitas 
+            slug = $(this).attr('rel');
+            if (typeof slug !== typeof undefined && slug !== false) {
+                jQuery('#modalLerReceita').modal('show');
+                get_post_receita(slug, target_conteudo);
+            }
+
+        });
+
     });
+
+
 
     jQuery(document).ready(function () {
 
